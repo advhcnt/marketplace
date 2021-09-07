@@ -1,0 +1,22 @@
+.btn_goup_1 {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.form_1 {
+    width: auto;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 12px;
+}
+
+.btn_modification {
+    margin-top: 20px;
+    margin-left: 30px;
+}

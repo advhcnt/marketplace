@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(to right, rgba(103, 104, 104, 0.811), rgba(6, 135, 247, 0.811), rgba(154, 163, 171, 0.811));
+}
+
+form {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 300px;
+    justify-content: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin-top: -70px;
+    margin-right: auto;
+    margin-left: auto;
+}

@@ -1,0 +1,27 @@
+.partie_message {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0px;
+    background-color: rgba(85, 107, 85, 0.33);
+    height: 490px;
+    overflow-y: scroll;
+}
+
+.liste_commande {
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+.button_commande {
+    padding: 20px;
+    color: black;
+    letter-spacing: 5px;
+}
+
+.autre>.alert {
+    border-bottom-left-radius: 180px;
+}
+
+.client>.alert {
+    border-bottom-right-radius: 180px;
+}

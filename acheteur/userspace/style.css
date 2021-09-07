@@ -1,0 +1,97 @@
+.lenav {
+    margin-bottom: 100px;
+}
+
+body {
+    padding: auto;
+    padding-left: 20px;
+}
+
+.footer {
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+}
+
+.camera {
+    margin-left: 50px;
+    top: -15px;
+    text-decoration: none;
+    color: black;
+}
+
+.lien_info {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.lien_info:hover {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.lien_info:visited {
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.profil {
+    background-image: linear-gradient(to bottom, rgb(9, 252, 9), rgb(4, 0, 255));
+}
+
+.entete {
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav_lien {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-right: auto;
+    padding-left: 1px;
+}
+
+.Part1 {
+    max-width: 600px;
+}
+
+.boutons {
+    width: 100px;
+}
+
+@media screen and (max-width:720px) {
+    .nav_lien {
+        text-align: left;
+        justify-content: left;
+        align-content: left;
+        padding-left: 0px;
+        color: black;
+        width: 100vw;
+    }
+    .navbar {}
+    .entete {
+        width: 100vw;
+        color: white;
+        background-color: rgb(149, 165, 170);
+        text-align: left;
+        justify-content: left;
+        align-content: left;
+    }
+    .navbar-link {
+        color: #FFF;
+    }
+}
+
+nav {
+    font-size: medium;
+    padding-top: 4px;
+    height: 70px;
+}
+
+.logo_profil {
+    margin-top: -50px;
+}

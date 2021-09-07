@@ -1,0 +1,31 @@
+.form-inline {
+    margin-top: 15px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    padding-top: 5px;
+    border: 1px solid greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+textarea {
+    max-width: 400px;
+    max-height: 214px;
+    min-width: 266px;
+    min-height: 214px;
+}
+
+@media screen and (max-width:764px) {
+    input {
+        margin-top: 10px;
+    }
+}

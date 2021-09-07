@@ -1,0 +1,13 @@
+footer {
+    bottom: -100vh;
+}
+
+.tableau {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    padding-left: 30px;
+    padding-right: 30px;
+}

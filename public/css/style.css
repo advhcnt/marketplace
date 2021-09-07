@@ -1,0 +1,57 @@
+nav {
+    margin-bottom: 50px;
+}
+
+body {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgba(16, 62, 92, 0.467);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card-body {
+    background-color: rgb(46, 163, 158);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.card_image {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn_achat {
+    padding-bottom: 12px;
+}
+
+.btn {
+    width: 200px;
+}
+
+h3 {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, rgba(103, 104, 104, 0.811), rgba(6, 135, 247, 0.811), rgba(154, 163, 171, 0.811));
+}
+
+section {
+    margin-top: 30px;
+}
+
+.logo_reseaux {
+    width: 30px;
+    height: 30px;
+}

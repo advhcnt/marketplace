@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<body>
+
+
+
+    <button onmouseover="myFunction('Demo1')" class="w3-button    w3-block">
+Accordion 1</button>
+
+    <div id="Demo1" class="w3-hide" onmouseout="myFunction2('Demo1')">
+        <a class="w3-button  w3-block" href="#">Link 1</a>
+
+
+    </div>
+
+    <button onmouseover="myFunction('Demo3')" class="w3-button    w3-block">
+        Accordion 1</button>
+
+    <div id="Demo3" class="w3-hide" onmouseout="myFunction2('Demo3')">
+        <a class="w3-button  w3-block" href="#">Link 3</a>
+
+
+    </div>
+
+    <button onmouseover="myFunction('Demo4')" class="w3-button    w3-block">
+                Accordion 1</button>
+
+    <div id="Demo4" class="w3-hide" onmouseout="myFunction2('Demo4')">
+        <a class="w3-button  w3-block" href="#">Link 4</a>
+
+
+    </div>
+
+    <button onclick="myFunction('Demo2')" class="w3-button    w3-block">
+        Accordion 2</button>
+
+    <div id="Demo2" class="w3-hide">
+        <a class="w3-button w3-block" href="#">Link 1</a>
+
+
+    </div>
+
+
+    <script>
+        function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        function myFunction2(id) {
+            var x = document.getElementById(id);
+            /*x.className = " w3-hide";*/
+
+            x.attributes("class", "w3-hide")
+
+
+            /*if (x.className.indexOf("w3-show") == 1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }*/
+        }
+    </script>
+
+</body>
